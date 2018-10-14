@@ -9,9 +9,9 @@
     tools:layout_editor_absoluteY="81dp">
 
     <ImageView
+        style="@style/imageStyle"
+
         android:id="@+id/imageView_medic2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:contentDescription="@string/image2_desc"
@@ -22,9 +22,8 @@
         app:srcCompat="@drawable/medicament2" />
 
     <ImageView
+        style="@style/imageStyle"
         android:id="@+id/imageVIew_medic1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="16dp"
         android:contentDescription="@string/image1_desc"
@@ -34,9 +33,9 @@
         app:srcCompat="@drawable/medicament1" />
 
     <ImageView
+
+        style="@style/imageStyle"
         android:id="@+id/imageView_medic3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="24dp"
         android:contentDescription="@string/image3_desc"
@@ -46,9 +45,8 @@
         app:srcCompat="@drawable/medicament3" />
 
     <ImageView
+        style="@style/imageStyle"
         android:id="@+id/imageView_medic4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:contentDescription="@string/image4_desc"
@@ -59,9 +57,8 @@
         app:srcCompat="@drawable/medicament4" />
 
     <ImageView
+        style="@style/imageStyle"
         android:id="@+id/imageView_medic5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="16dp"
         android:contentDescription="@string/image5_desc"
@@ -71,9 +68,8 @@
         app:srcCompat="@drawable/medicament5" />
 
     <ImageView
+        style="@style/imageStyle"
         android:id="@+id/imageView_medic6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:contentDescription="@string/image6_desc"
@@ -84,9 +80,8 @@
         app:srcCompat="@drawable/medicament6" />
 
     <ImageView
+        style="@style/imageStyle"
         android:id="@+id/imageView_medic7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="24dp"
         android:contentDescription="@string/image7_desc"
