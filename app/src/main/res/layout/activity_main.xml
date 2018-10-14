@@ -11,17 +11,24 @@
 
     <ImageView
         android:id="@+id/imageView_medic2"
-    android:background="@color/colorPrimaryDark"
-    android:backgroundTint="@color/colorPrimaryDark"
-    android:hapticFeedbackEnabled="false"
-    tools:context=".MainActivity">
+        style="@style/imageStyle"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/image2_desc"
+        app:layout_constraintBottom_toTopOf="@+id/imageView_medic4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/medicament2" />
 
 
     <ImageView
         android:id="@+id/imageVIew_medic1"
         style="@style/imageStyle"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:contentDescription="@string/image1_desc"
         app:layout_constraintBottom_toTopOf="@+id/imageView_medic4"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,7 +39,7 @@
 
         android:id="@+id/imageView_medic3"
         style="@style/imageStyle"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="24dp"
         android:contentDescription="@string/image3_desc"
         app:layout_constraintBottom_toTopOf="@+id/imageView_medic4"
