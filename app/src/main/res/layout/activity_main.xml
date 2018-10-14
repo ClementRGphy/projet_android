@@ -5,26 +5,17 @@
     android:id="@+id/constraintPrincipal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark"
-    android:backgroundTint="@color/colorPrimaryDark"
-    android:hapticFeedbackEnabled="false"
-    tools:context=".MainActivity">
     android:background=" "
     tools:context=".MainActivity"
     tools:layout_editor_absoluteY="81dp">
 
     <ImageView
         android:id="@+id/imageView_medic2"
+    android:background="@color/colorPrimaryDark"
+    android:backgroundTint="@color/colorPrimaryDark"
+    android:hapticFeedbackEnabled="false"
+    tools:context=".MainActivity">
 
-        style="@style/imageStyle"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
-        android:contentDescription="@string/image2_desc"
-        app:layout_constraintBottom_toTopOf="@+id/imageView_medic4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/medicament2" />
 
     <ImageView
         android:id="@+id/imageVIew_medic1"
