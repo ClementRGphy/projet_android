@@ -9,13 +9,86 @@
     android:hapticFeedbackEnabled="false"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <ImageView
+        android:id="@+id/imageView_medic2"
+
+        style="@style/imageStyle"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/image2_desc"
+        app:layout_constraintBottom_toTopOf="@+id/imageView_medic4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/medicament2" />
+
+    <ImageView
+        android:id="@+id/imageVIew_medic1"
+        style="@style/imageStyle"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/image1_desc"
+        app:layout_constraintBottom_toTopOf="@+id/imageView_medic4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_medic2"
+        app:srcCompat="@drawable/medicament1" />
+
+    <ImageView
+
+        android:id="@+id/imageView_medic3"
+        style="@style/imageStyle"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:contentDescription="@string/image3_desc"
+        app:layout_constraintBottom_toTopOf="@+id/imageView_medic4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_medic2"
+        app:srcCompat="@drawable/medicament3" />
+
+    <ImageView
+        android:id="@+id/imageView_medic4"
+        style="@style/imageStyle"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/image4_desc"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/medicament4" />
+
+    <ImageView
+        android:id="@+id/imageView_medic5"
+        style="@style/imageStyle"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/image5_desc"
+        app:layout_constraintBottom_toTopOf="@+id/imageView_medic6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_medic4"
+        app:srcCompat="@drawable/medicament5" />
+
+    <ImageView
+        android:id="@+id/imageView_medic6"
+        style="@style/imageStyle"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/image6_desc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_medic4"
+        app:srcCompat="@drawable/medicament6" />
+
+    <ImageView
+        android:id="@+id/imageView_medic7"
+        style="@style/imageStyle"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:contentDescription="@string/image7_desc"
+        app:layout_constraintBottom_toTopOf="@+id/imageView_medic6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_medic4"
+        app:srcCompat="@drawable/medicament7" />
 
 </android.support.constraint.ConstraintLayout>

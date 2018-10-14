@@ -8,4 +8,10 @@
         <item name="colorAccent">@android:color/holo_red_light</item>
     </style>
 
+
+    <style name="imageStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
 </resources>

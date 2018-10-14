@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">MARIUS_RISSO</string>
+    <string name="image1_desc">Image de médicament 1</string>
+    <string name="image2_desc">Image de médicament 2</string>
+    <string name="image3_desc">Image de médicament 3</string>
+    <string name="image4_desc">Image de médicament 4</string>
+    <string name="image5_desc">Image de médicament 5</string>
+    <string name="image6_desc">Image de médicament 6</string>
+    <string name="image7_desc">Image de médicament 7</string>
 </resources>
