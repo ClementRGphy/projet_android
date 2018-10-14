@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MARIUS_RISSO</string>
+    <string name="image1_desc">Imagen de medicamento 1</string>
+    <string name="image2_desc">Imagen de medicamento 2</string>
+    <string name="image3_desc">Imagen de medicamento 3</string>
+    <string name="image4_desc">Imagen de medicamento 4</string>
+    <string name="image5_desc">Imagen de medicamento 5</string>
+    <string name="image6_desc">Imagen de medicamento 6</string>
+    <string name="image7_desc">Imagen de medicamento 7</string>
+</resources>
