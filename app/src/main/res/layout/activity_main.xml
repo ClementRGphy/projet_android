@@ -5,13 +5,14 @@
     android:id="@+id/constraintPrincipal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background=" "
     tools:context=".MainActivity"
     tools:layout_editor_absoluteY="81dp">
 
     <ImageView
-        style="@style/imageStyle"
-
         android:id="@+id/imageView_medic2"
+
+        style="@style/imageStyle"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:contentDescription="@string/image2_desc"
@@ -22,8 +23,8 @@
         app:srcCompat="@drawable/medicament2" />
 
     <ImageView
-        style="@style/imageStyle"
         android:id="@+id/imageVIew_medic1"
+        style="@style/imageStyle"
         android:layout_marginStart="24dp"
         android:layout_marginTop="16dp"
         android:contentDescription="@string/image1_desc"
@@ -34,8 +35,8 @@
 
     <ImageView
 
-        style="@style/imageStyle"
         android:id="@+id/imageView_medic3"
+        style="@style/imageStyle"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="24dp"
         android:contentDescription="@string/image3_desc"
@@ -45,8 +46,8 @@
         app:srcCompat="@drawable/medicament3" />
 
     <ImageView
-        style="@style/imageStyle"
         android:id="@+id/imageView_medic4"
+        style="@style/imageStyle"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:contentDescription="@string/image4_desc"
@@ -57,8 +58,8 @@
         app:srcCompat="@drawable/medicament4" />
 
     <ImageView
-        style="@style/imageStyle"
         android:id="@+id/imageView_medic5"
+        style="@style/imageStyle"
         android:layout_marginStart="24dp"
         android:layout_marginTop="16dp"
         android:contentDescription="@string/image5_desc"
@@ -68,8 +69,8 @@
         app:srcCompat="@drawable/medicament5" />
 
     <ImageView
-        style="@style/imageStyle"
         android:id="@+id/imageView_medic6"
+        style="@style/imageStyle"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:contentDescription="@string/image6_desc"
@@ -80,8 +81,8 @@
         app:srcCompat="@drawable/medicament6" />
 
     <ImageView
-        style="@style/imageStyle"
         android:id="@+id/imageView_medic7"
+        style="@style/imageStyle"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="24dp"
         android:contentDescription="@string/image7_desc"
